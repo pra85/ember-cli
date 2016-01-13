@@ -3,6 +3,7 @@
 rm -rf node_modules && \
 rm -rf ./ember-cli-*.tgz && \
 npm cache clear && \
+git clean -fdx && \
 npm i --no-optional && \
 npm link --no-optional && \
 npm pack && \
